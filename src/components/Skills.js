@@ -53,7 +53,7 @@ export default class Skills extends Component {
                         <ul>
                             {this.state.skills.slice(0, 6).map((skill, i) => {
                                 return (
-                                    <li>
+                                    <li key={i}>
                                         <span className="skill-name">{skill.name}</span>
                                         {this._numberToStars(skill.value)}
                                     </li>
@@ -65,7 +65,7 @@ export default class Skills extends Component {
                         <ul>
                             {this.state.skills.slice(6).map((skill, i) => {
                                 return (
-                                    <li>
+                                    <li key={i}>
                                         <span className="skill-name">{skill.name}</span>
                                         {this._numberToStars(skill.value)}
                                     </li>
