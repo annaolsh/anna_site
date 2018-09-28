@@ -24,21 +24,21 @@ export default class Skills extends Component {
         } else if (number === 4) {
             return (
                 <span className="star">
-                    <FontAwesomeIcon icon="star" color="#6DB65B" size="sm"/>
-                    <FontAwesomeIcon icon="star" color="#6DB65B" size="sm"/>
-                    <FontAwesomeIcon icon="star" color="#6DB65B" size="sm"/>
-                    <FontAwesomeIcon icon="star" color="#6DB65B" size="sm"/>
-                    <FontAwesomeIcon icon="star" color="#rrr" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#6DB65B" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#6DB65B" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#6DB65B" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#6DB65B" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#rrr" size="sm"/>
                 </span>
             )
         } else {
             return (
                 <span className="star">
-                    <FontAwesomeIcon icon="star" color="#6DB65B" size="sm"/>
-                    <FontAwesomeIcon icon="star" color="#6DB65B" size="sm"/>
-                    <FontAwesomeIcon icon="star" color="#6DB65B" size="sm"/>
-                    <FontAwesomeIcon icon="star" color="#rrr" size="sm"/>
-                    <FontAwesomeIcon icon="star" color="#rrr" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#6DB65B" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#6DB65B" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#6DB65B" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#rrr" size="sm"/>
+                    <FontAwesomeIcon className="each-star" icon="star" color="#rrr" size="sm"/>
                 </span>
             )
         }

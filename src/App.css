@@ -2,7 +2,7 @@
   background: orange;
   height: 30rem;
   position: relative;
-  background-image: url("./assets/images/me.png");
+  background-image: url("./assets/me.png");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
@@ -36,4 +36,14 @@ h1 {
 
 ul {
   list-style: none;
+  padding: 0;
 }
+
+li:hover {
+  background: #d0d5de;
+}
+
+li:hover .star {
+  margin-right: 10px;
+}
+
