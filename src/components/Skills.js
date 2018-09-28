@@ -47,7 +47,6 @@ export default class Skills extends Component {
     render() {
         return (
             <div id="skills-component">
-                <h2>Skills</h2>
                 <div id="skillset" className="row">
                     <div className="col-md-6">
                         <ul>

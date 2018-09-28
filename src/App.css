@@ -15,6 +15,14 @@ h1 {
   /* padding: 0; */
 }
 
+p, ul {
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: ld;
+}
+
 #introduction {
   padding-top: 7rem;
   padding-left: 13%;
