@@ -1,0 +1,50 @@
+[
+    {
+        "name": "JavaScript",
+        "value": 5
+    },
+    {
+        "name": "Angular", 
+        "value": 5
+    },
+    {
+        "name": "React", 
+        "value": 5
+    },
+    {
+        "name": "HTML/CSS", 
+        "value": 5
+    },
+    {
+        "name": "JQuery", 
+        "value": 5
+    },
+    {
+        "name": "Agile", 
+        "value": 5
+    },
+    {
+        "name": "OOP", 
+        "value": 5
+    },
+    {
+        "name": "JSON", 
+        "value": 5
+    },
+    {
+        "name": "Redux",
+        "value": 4
+    },
+    {
+        "name": "Bootstrap",
+        "value": 4
+    },
+    {
+        "name": "SQL",
+        "value": 4
+    },
+    {
+        "name": "Ruby/Ruby-on-Rails",
+        "value": 3
+    }
+]
